@@ -8,7 +8,7 @@ export function Contact() {
     // For now, it's a placeholder
     const link = document.createElement('a');
     link.href = "/Personal-Portfolio/Mohamed_Ashraf's_CV.pdf"; // Replace with actual CV path
-    link.download = "/Personal-Portfolio/Mohamed_Ashraf's_CV.pdf";
+    link.download = "Mohamed_Ashraf's_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
