@@ -25,7 +25,7 @@ export function Hero() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = "Personal-Portfolio/Mohamed_Ashraf's_CV.pdf";
+    link.href = "/Personal-Portfolio/Mohamed_Ashraf's_CV.pdf";
     link.download = "Mohamed_Ashraf's_CV.pdf";
     document.body.appendChild(link);
     link.click();
