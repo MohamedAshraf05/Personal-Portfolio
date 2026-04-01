@@ -25,7 +25,7 @@ export function Hero() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = "/Mohamed_Ashraf's_CV.pdf";
+    link.href = "Personal-Portfolio/Mohamed_Ashraf's_CV.pdf";
     link.download = "Mohamed_Ashraf's_CV.pdf";
     document.body.appendChild(link);
     link.click();
@@ -60,7 +60,7 @@ export function Hero() {
               
               {!imgError ? (
                 <img
-                  src="/profile_picture.jpeg"   // 👈 put your image in public folder
+                  src="/Personal-Portfolio/profile_picture.jpeg"
                   alt="Mohamed Ashraf"
                   className="w-full h-full object-cover"
                   onError={() => setImgError(true)}

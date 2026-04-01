@@ -5,11 +5,11 @@
   "type": "module",
   "homepage": "https://MohamedAshraf05.github.io/Personal-Portfolio",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy":"gh-pages -d dist -b gh-pages -f"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages -f"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -73,7 +73,7 @@
     "@vitejs/plugin-react": "4.7.0",
     "gh-pages": "^6.3.0",
     "tailwindcss": "4.1.12",
-    "vite": "6.3.5"
+    "vite": "^6.3.5"
   },
   "peerDependencies": {
     "react": "18.3.1",
