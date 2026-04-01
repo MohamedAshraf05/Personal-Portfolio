@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ChevronDown, Download } from 'lucide-react';
 import { Button } from './ui/button';
-
 export function Hero() {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
